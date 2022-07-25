@@ -34,7 +34,17 @@ body {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1{
     font-size: 24px;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
 }
 
 .nav-bar {
@@ -73,13 +83,14 @@ a {
     border-radius: 4px;
 }
 
-.img-box {
+.img-box img {
     background-color: gray;
     width: 500px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 8px;
 }
 
 /*-----INFORMATION-----*/
@@ -109,7 +120,7 @@ a {
     width: 150px;
 }
 
-.box {
+.box img {
     border-style: solid;
     border-color: #3882F6;
     border-radius: 8px;
@@ -120,6 +131,10 @@ a {
 
 .info-box {
     text-align: center;
+}
+
+.info-text {
+    color: #1F2937;
 }
 
 /*-----TESTIMONIAL-----*/
@@ -137,7 +152,7 @@ a {
     font-style: italic;
     font-weight: 100;
     color: #1F2937;
-    margin-top: 50px;
+    margin-top: 25px;
     align-self: center;
 }
 
